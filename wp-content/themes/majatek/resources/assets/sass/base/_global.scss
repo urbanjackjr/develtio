@@ -1,0 +1,49 @@
+@use "../abstract"as *;
+
+.button {
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    background: $accent-orange;
+    border-radius: .625rem;
+    color: white;
+    font-family: $main-font;
+    padding: 1.09375rem 3.125rem;
+    font-size: 1.0625rem;
+    line-height: 1.23529;
+
+    @include on-event {
+        color: white;
+        filter: brightness(1.1);
+    }
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &-item {
+        font-size: 1rem;
+        line-height: 1.1875;
+        margin-bottom: .4375rem;
+        color: white;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        &.current-menu-item {
+            color: $accent-orange;
+        }
+
+        a {
+            color: inherit;
+            display: block;
+
+            @include on-event {
+                color: $accent-orange;
+            }
+        }
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "key": "group_6295f2cd72044",
+    "title": "Home Section",
+    "fields": [
+        {
+            "key": "field_6295f2d5ab506",
+            "label": "Section title",
+            "name": "section_title",
+            "type": "text",
+            "instructions": "Type in Home section title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Ubezpieczenia majątkowe",
+            "placeholder": "Home section title...",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6295f321ab508",
+            "label": "Section subtitle",
+            "name": "section_subtitle",
+            "type": "text",
+            "instructions": "Type in Home section subtitle",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Co obejmują?",
+            "placeholder": "Home section subtitle...",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6295f315ab507",
+            "label": "Section content",
+            "name": "section_content",
+            "type": "wysiwyg",
+            "instructions": "Add in your section content...",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<p><b>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. <\/b><\/p>\r\n<p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr.<\/p>",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_6295f39cab509",
+            "label": "Section button link",
+            "name": "section_button_link",
+            "type": "link",
+            "instructions": "Set section button link",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
+            "key": "field_6295f416ab50b",
+            "label": "Section button text",
+            "name": "section_button_text",
+            "type": "text",
+            "instructions": "Set section button text",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Zamów ubezpieczenie",
+            "placeholder": "Set section button text...",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6295f63f402ad",
+            "label": "Section image",
+            "name": "section_image",
+            "type": "image",
+            "instructions": "Set section background image",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1653995226
+}

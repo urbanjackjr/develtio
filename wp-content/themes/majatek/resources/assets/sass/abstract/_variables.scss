@@ -1,0 +1,20 @@
+$default-font-size: 1rem;
+$main-font: "Quicksand",
+sans-serif;
+$secondary-font: "Lato",
+sans-serif;
+
+$accent-orange: #fe7a22;
+$accent-blue: #1c3e95;
+$dark-gray: #161616;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: ("small": 30rem,
+	"medium": 48rem,
+	"large": 78.75rem,
+	"larger": 85.4375rem,
+	"max": 80rem,
+	"2k": 160rem,
+	"4k": 240rem) !default;

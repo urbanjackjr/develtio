@@ -1,0 +1,14 @@
+@use "../abstract"as *;
+
+.form {
+
+    &__title {
+        color: $accent-blue;
+        font-family: $main-font;
+        font-size: 1.5rem;
+        line-height: 1.08333;
+        font-weight: 700;
+        margin-bottom: 1.25rem;
+        display: block;
+    }
+}

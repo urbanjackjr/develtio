@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+
+    &__hero {
+        position: relative;
+        min-height: 45.75rem;
+        display: grid;
+    }
+
+    &__section {
+        display: grid;
+        position: relative;
+    }
+}

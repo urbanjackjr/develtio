@@ -1,0 +1,49 @@
+@use "../abstract"as *;
+
+.widget {
+
+    &-area {
+
+        h2 {
+            color: white;
+            margin-bottom: .5rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                font-size: 1rem;
+                line-height: 1.1875;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+
+        .wp-block-group {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__title {
+        color: white;
+        font-size: 1.25rem;
+        line-height: 1.25;
+        margin-bottom: .9375rem;
+    }
+
+    &__contact {
+        color: $accent-orange;
+
+        a {
+            color: inherit;
+            font-weight: 700;
+            font-size: 1.5625rem;
+            line-height: 1;
+        }
+    }
+}

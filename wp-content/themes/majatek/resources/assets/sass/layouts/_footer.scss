@@ -1,0 +1,19 @@
+@use "../abstract"as *;
+
+.footer {
+    background: $accent-blue;
+    padding: 3.8125rem 2rem 3.6875rem;
+
+    &__content {
+        max-width: 79rem;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 auto;
+    }
+
+    &__column {
+        flex: 1 0 18.75rem;
+        padding-bottom: 2rem;
+    }
+}
